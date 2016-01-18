@@ -1,0 +1,38 @@
+{
+  "name": "lwipify",
+  "version": "1.0.0",
+  "description": "Convert images in lwip objects.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "lwip": "^0.0.8",
+    "request": "^2.67.0",
+    "tinyreq": "^2.3.1",
+    "got": "^6.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/lwipify.git"
+  },
+  "keywords": [
+    "image",
+    "processing",
+    "lwip"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/lwipify/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/lwipify#readme",
+  "blah": {
+      "show_description": false,
+      "description": "Convert images in [lwip](https://github.com/EyalAr/lwip) objects."
+  }
+}
