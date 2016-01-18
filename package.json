@@ -1,6 +1,6 @@
 {
   "name": "lwipify",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Convert images in lwip objects.",
   "main": "lib/index.js",
   "directories": {
@@ -8,8 +8,6 @@
   },
   "dependencies": {
     "lwip": "^0.0.8",
-    "request": "^2.67.0",
-    "tinyreq": "^2.3.1",
     "got": "^6.1.0"
   },
   "devDependencies": {},
@@ -32,7 +30,7 @@
   },
   "homepage": "https://github.com/IonicaBizau/lwipify#readme",
   "blah": {
-      "show_description": false,
-      "description": "Convert images in [lwip](https://github.com/EyalAr/lwip) objects."
+    "show_description": false,
+    "description": "Convert images in [lwip](https://github.com/EyalAr/lwip) objects."
   }
 }
