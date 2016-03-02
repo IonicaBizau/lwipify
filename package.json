@@ -9,7 +9,6 @@
   "dependencies": {
     "got": "^6.1.0",
     "lwip": "^0.0.8",
-    "same-time": "^2.3.1",
     "url-remote": "^1.1.0"
   },
   "devDependencies": {},
