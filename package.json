@@ -1,6 +1,6 @@
 {
   "name": "lwipify",
-  "version": "1.4.1",
+  "version": "2.0.0",
   "description": "Convert images in lwip objects.",
   "main": "lib/index.js",
   "directories": {
@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "got": "^6.1.0",
-    "lwip": "^0.0.8",
+    "lwip2": "^1.0.0",
     "url-remote": "^1.1.0"
   },
   "devDependencies": {},

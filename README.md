@@ -50,6 +50,9 @@ Converts the image (located at given path/url or the image buffer) into a lwip
 - **String|Buffer** `source`: The image path/url or the a `Buffer` object.
 - **Object** `options`: An object containing the following fields:
  - `image_type` (String): An optional field representing the image type (default: taken from the url/path).
+ - `lwip` (Object): The `lwip` module object. By default it uses
+   [`lwip2`](https://github.com/IonicaBizau/lwip2) which doesn't
+   compile the `lwip` library if GraphicsMagick is available.
 - **Function** `callback`: The callback function.
 
 ## How to contribute
@@ -57,6 +60,8 @@ Have an idea? Found a bug? See [how to contribute][contributing].
 
 ## Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
+
+ - [`image-parser`](https://github.com/IonicaBizau/image-parser#readme)
 
  - [`imgpx`](https://github.com/IonicaBizau/imgpx#readme)
 
