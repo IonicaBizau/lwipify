@@ -1,14 +1,18 @@
+
 # lwipify [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/lwipify.svg)](https://www.npmjs.com/package/lwipify) [![Downloads](https://img.shields.io/npm/dt/lwipify.svg)](https://www.npmjs.com/package/lwipify) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 Convert images in [lwip](https://github.com/EyalAr/lwip) objects.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save lwipify
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 const imgpx = require("lwipify");
@@ -41,7 +45,8 @@ imgpx(`${__dirname}/octocat.png`, (err, img) => {
 });
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `lwipify(source, options, callback)`
 Converts the image (located at given path/url or the image buffer) into a lwip
@@ -55,17 +60,19 @@ Converts the image (located at given path/url or the image buffer) into a lwip
    compile the `lwip` library if GraphicsMagick is available.
 - **Function** `callback`: The callback function.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`image-parser`](https://github.com/IonicaBizau/image-parser#readme)
 
- - [`imgpx`](https://github.com/IonicaBizau/imgpx#readme)
+ - [`image-parser`](https://github.com/IonicaBizau/image-parser#readme)—An image parser that works.
+ - [`imgpx`](https://github.com/IonicaBizau/imgpx#readme)—Get a matrix of pixels of a given image.
 
-## License
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
