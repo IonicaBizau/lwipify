@@ -1,6 +1,6 @@
 {
   "name": "lwipify",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Convert images in lwip objects.",
   "main": "lib/index.js",
   "directories": {
@@ -33,5 +33,16 @@
   "blah": {
     "show_description": false,
     "description": "Convert images in [lwip](https://github.com/EyalAr/lwip) objects."
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
