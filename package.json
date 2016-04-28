@@ -1,6 +1,6 @@
 {
   "name": "lwipify",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Convert images in lwip objects.",
   "main": "lib/index.js",
   "directories": {
