@@ -21,6 +21,7 @@ const imgpx = require("lwipify");
 
 // Online image
 imgpx("https://octodex.github.com/images/original.png", (err, img) => {
+    debugger
     if (err) { return console.error(err); }
 
     console.log(img.height());
@@ -34,17 +35,17 @@ imgpx("https://octodex.github.com/images/original.png", (err, img) => {
 });
 
 // Local file
-imgpx(`${__dirname}/octocat.png`, (err, img) => {
-    if (err) { return console.error(err); }
-    console.log(img.height());
-    // 20
-
-    console.log(img.width());
-    // 20
-
-    console.log(img.getPixel(2, 3));
-    // { r: 0, g: 0, b: 0, a: 0 }
-});
+//imgpx(`${__dirname}/octocat.png`, (err, img) => {
+//    if (err) { return console.error(err); }
+//    console.log(img.height());
+//    // 20
+//
+//    console.log(img.width());
+//    // 20
+//
+//    console.log(img.getPixel(2, 3));
+//    // { r: 0, g: 0, b: 0, a: 0 }
+//});
 ```
 
 ## :memo: Documentation
