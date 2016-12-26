@@ -7,12 +7,14 @@
     "example": "example"
   },
   "dependencies": {
-    "got": "^6.1.0",
     "lwip2": "^1.0.0",
     "noop6": "^1.0.1",
+    "tinyreq": "^3.1.4",
     "url-remote": "^1.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "lwip": "0.0.9"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
