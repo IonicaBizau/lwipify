@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Converts the image (located at given path/url or the image buffer) into a lwip
 
 #### Params
+
 - **String|Buffer** `source`: The image path/url or the a `Buffer` object.
 - **Object** `options`: An object containing the following fields:
  - `image_type` (String): An optional field representing the image type (default: taken from the url/path).
