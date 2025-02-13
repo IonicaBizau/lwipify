@@ -1,6 +1,6 @@
 {
   "name": "lwipify",
-  "version": "2.0.13",
+  "version": "2.0.14",
   "description": "Convert images in lwip objects.",
   "main": "lib/index.js",
   "directories": {
@@ -48,6 +48,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
